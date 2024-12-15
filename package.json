@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "echo '{\"alias\": [\"xn--vrcel-4ra.com\"],\"public\":true}' > vercel.json && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
